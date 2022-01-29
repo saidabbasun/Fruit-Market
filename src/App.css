@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.container {
+  padding: 0 20px;
+  width: 410px;
+  height: 500px;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 0 12px 0 rgba(73, 75, 116, 0.16);
+  overflow-y: scroll;
+
+}
